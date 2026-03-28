@@ -23,7 +23,9 @@ namespace StudentManagementSystem
 
             if (user == "admin" && pass == "1234")
             {
-                MessageBox.Show("✅ Login Successful! Dashboard coming soon.");
+                DashboardForm dashboard = new DashboardForm();
+                dashboard.Show();
+                this.Hide();
             }
             else
             {

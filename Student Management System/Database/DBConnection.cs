@@ -1,6 +1,7 @@
 ﻿using System.Data.SqlClient;
 
-namespace Student_Management_System.Database
+// Change this line to match StudentForm.cs
+namespace StudentManagementSystem
 {
     public class DBConnection
     {

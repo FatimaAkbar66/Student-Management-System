@@ -17,8 +17,7 @@ namespace StudentManagementSystem
 
         private void btnStudents_Click(object sender, EventArgs e)
         {
-            // StudentForm will be added next
-            MessageBox.Show("Student Form coming soon!");
+            new StudentForm().Show();
         }
 
         private void btnAttendance_Click(object sender, EventArgs e)
